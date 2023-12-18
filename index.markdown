@@ -4,3 +4,5 @@
 
 layout: home
 ---
+hello world
+<script>console.log("hellow wowlrs");</script>

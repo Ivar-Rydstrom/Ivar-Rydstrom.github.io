@@ -27,12 +27,27 @@ github_username:  Ivar-Rydstrom
 linkedin: ivar-rydstrom
 
 # Build settings
-# theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9
+theme: jekyll-theme-hydejack
+# remote_theme: hydecorp/hydejack@v9
 plugins:
   - jekyll-feed
 
 accent_image: static/images/cryostat2.jpg
+
+custom-javascript-list: static/scripts/onload.js
+
+hydejack:
+  no_drawer: false
+  no_toc: false
+
+menu:
+- title:             Example
+  url:               /example/
+- title:             Documentation
+  url:               /docs/
+- title:             About
+  url:               /about/
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
