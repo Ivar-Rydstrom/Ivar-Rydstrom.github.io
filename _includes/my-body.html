@@ -109,56 +109,65 @@ Example code for using Matamo as alternative analytics solution.
 
 <!-- force start with drawer open -->
 <script>
-  var drawer_sel = "#_drawer.loaded";
-  function drawer_observed(observer) {
-    document.querySelector(drawer_sel).setAttribute("opened","");
-    function scrolled() {
-      document.querySelector(".sidebar-title").click();
-      document.removeEventListener("scroll",scrolled);
-    }
-    var scroll_listener = document.addEventListener("scroll",scrolled);
-    function clicked(event) {
-      if (event.target.nodeName.toLowerCase() === 'a') {
-        document.removeEventListener("scroll",scrolled);
-        document.querySelector(".sidebar-sticky").removeEventListener("click",clicked);
-      }
-    }
-    var click_listener = document.querySelector(".sidebar-sticky").addEventListener("click",clicked);
-  }
-  // wait for drawer to load, then mount mutation observer
-  if (!document.querySelector(drawer_sel)) {
-      var drawer_observer = new MutationObserver(function(mut) {
-          if (document.querySelector(drawer_sel)) {
-              drawer_observed(drawer_observer)
-              drawer_observer.disconnect();
-          }
-      });
-      drawer_observer.observe(document.body, {childList:true, subtree:true});
-  } else {
-    drawer_observed();
-  }
-  
+  // var drawer_sel = "#_drawer.loaded";
+  // function drawer_observed(observer) {
+  //   document.querySelector(drawer_sel).setAttribute("opened","");
+  //   function scrolled() {
+  //     document.querySelector(".sidebar-title").click();
+  //     document.removeEventListener("scroll",scrolled);
+  //   }
+  //   var scroll_listener = document.addEventListener("scroll",scrolled);
+  //   function clicked(event) {
+  //     if (event.target.nodeName.toLowerCase() === 'a') {
+  //       document.removeEventListener("scroll",scrolled);
+  //       document.querySelector(".sidebar-sticky").removeEventListener("click",clicked);
+  //     }
+  //   }
+  //   var click_listener = document.querySelector(".sidebar-sticky").addEventListener("click",clicked);
+  // }
+  // // wait for drawer to load, then mount mutation observer
+  // if (!document.querySelector(drawer_sel)) {
+  //     var drawer_observer = new MutationObserver(function(mut) {
+  //         if (document.querySelector(drawer_sel)) {
+  //             drawer_observed(drawer_observer)
+  //             drawer_observer.disconnect();
+  //         }
+  //     });
+  //     drawer_observer.observe(document.body, {childList:true, subtree:true});
+  // } else {
+  //   drawer_observed();
+  // }  
 </script>
 
 
-<!-- incorporate typewriter.js -->
+<!-- typewriter effect -->
 <script type="text/javascript">
-  document.querySelector(".sidebar-about p").id = "typewriter_text";
-  // .innerHTML = "<span class='sr-only'>User Researcher</span><span id='mytag' aria-hidden='true'></span>";
-  // document.getElementsByClassName("sidebar-about")[0].children[2].style.fontSize = "0.83rem";
-  var typewriter = new Typewriter(typewriter_text, {
-    loop: true,
-    delay: 55,
+  (function enable_typewriter() {
+    if (document.querySelector(".sidebar-about p")) {
+      document.querySelector(".sidebar-about p").id = "typewriter_text";
+      // .innerHTML = "<span class='sr-only'>User Researcher</span><span id='mytag' aria-hidden='true'></span>";
+      // document.getElementsByClassName("sidebar-about")[0].children[2].style.fontSize = "0.83rem";
+      var typewriter = new Typewriter(typewriter_text, {
+        loop: true,
+        delay: 55,
+      });
+      typewriter
+        .typeString('Engineer')
+        .pauseFor(1000)
+        .deleteAll()
+        .typeString('Computer Scientist')
+        .pauseFor(1000)
+        .deleteAll()
+        .typeString('Physicist')
+        .pauseFor(5000)
+        .start();
+    }
+  })();
+  // ensure typewriter only tries to exist if it is able to exist
+  var typewriter_observer = new MutationObserver(function(mut) {
+    if (document.querySelector(".sidebar-about p")) {
+      typewriter_observer.disconnect();
+      enable_typewriter();
+    }
   });
-  typewriter
-    .typeString('Engineer')
-    .pauseFor(1000)
-    .deleteAll()
-    .typeString('Computer Scientist')
-    .pauseFor(1000)
-    .deleteAll()
-    .typeString('Physicist')
-    .pauseFor(5000)
-    .start();
-
 </script>

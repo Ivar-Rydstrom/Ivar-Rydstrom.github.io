@@ -4,4 +4,6 @@
 
 layout: home
 ---
+{% include my-head.html %}
+{%include my-body.html %}
 hello world
