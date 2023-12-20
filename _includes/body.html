@@ -1,17 +1,3 @@
-<!-- <script>
-  document.querySelector('hy-push-state').setAttribute('prefetch', '');
-
-  document.querySelectorAll('.sidebar a[href^="/"]').forEach(function (el) { 
-    el.addEventListener('click', function (e) {
-      if (el.pathname === window.location.pathname) {
-        e.preventDefault();
-        e.stopPropagation();
-        document.querySelector('hy-drawer').close();
-      }
-    });
-  });
-</script> -->
-
 <!--
 Code for integrating CloudFlare's email protection with Hydejack's single page app loading.
 -->
@@ -63,91 +49,11 @@ Code for integrating CloudFlare's email protection with Hydejack's single page a
   });
 </script>
 
-{% comment %}
-<!--
-Example code for using Matamo as alternative analytics solution.
--->
-{% if site.matomo_analytics %}
-<script>
-  var _paq = _paq || [];
-
-  /*{% if site.matomo_analytics.no_cookies %}*/
-  _paq.push(['disableCookies']);
-  /*{% endif %}*/
-
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  _paq.push(['setTrackerUrl', u+'piwik.php']);
-  _paq.push(['setSiteId', '{{site.matomo_analytics.site_id}}']);
-
-  var pushStateEl = document.getElementById('_pushState');
-  var timeStartLoadPage, referer, timeItTookToLoadPage;
-
-  pushStateEl.addEventListener('hy-push-state-start', function() {
-    timeStartLoadPage = new Date().getTime();
-    referer = window.location.toString();
-  });
-
-  pushStateEl.addEventListener('hy-push-state-ready', function() {
-    timeItTookToLoadPage = new Date().getTime() - timeStartLoadPage;
-  });
-
-  pushStateEl.addEventListener('hy-push-state-after', function() {
-    _paq.push(['setReferrerUrl', referer]);
-    _paq.push(['setCustomUrl', window.location.toString()]);
-    _paq.push(['setDocumentTitle', document.title]);
-    _paq.push(['deleteCustomVariables', 'page']);
-    _paq.push(['setGenerationTimeMs', timeItTookToLoadPage]);
-    _paq.push(['trackPageView']);
-  });
-
-  window.loadJSDeferred('{{site.matomo_analytics.root}}piwik.js');
-</script>
-{% endif %}
-{% endcomment %}
-
-
-<!-- force start with drawer open -->
-<script>
-  // var drawer_sel = "#_drawer.loaded";
-  // function drawer_observed(observer) {
-  //   document.querySelector(drawer_sel).setAttribute("opened","");
-  //   function scrolled() {
-  //     document.querySelector(".sidebar-title").click();
-  //     document.removeEventListener("scroll",scrolled);
-  //   }
-  //   var scroll_listener = document.addEventListener("scroll",scrolled);
-  //   function clicked(event) {
-  //     if (event.target.nodeName.toLowerCase() === 'a') {
-  //       document.removeEventListener("scroll",scrolled);
-  //       document.querySelector(".sidebar-sticky").removeEventListener("click",clicked);
-  //     }
-  //   }
-  //   var click_listener = document.querySelector(".sidebar-sticky").addEventListener("click",clicked);
-  // }
-  // // wait for drawer to load, then mount mutation observer
-  // if (!document.querySelector(drawer_sel)) {
-  //     var drawer_observer = new MutationObserver(function(mut) {
-  //         if (document.querySelector(drawer_sel)) {
-  //             drawer_observed(drawer_observer)
-  //             drawer_observer.disconnect();
-  //         }
-  //     });
-  //     drawer_observer.observe(document.body, {childList:true, subtree:true});
-  // } else {
-  //   drawer_observed();
-  // }  
-</script>
-
-
 <!-- typewriter text -->
-<script type="text/javascript">
-  console.log("hello world");
+<script>
   (function enable_typewriter() {
     if (document.querySelector(".sidebar-about p")) {
       document.querySelector(".sidebar-about p").id = "typewriter_text";
-      // .innerHTML = "<span class='sr-only'>User Researcher</span><span id='mytag' aria-hidden='true'></span>";
-      // document.getElementsByClassName("sidebar-about")[0].children[2].style.fontSize = "0.83rem";
       var typewriter = new Typewriter(typewriter_text, {
         loop: true,
         delay: 55,

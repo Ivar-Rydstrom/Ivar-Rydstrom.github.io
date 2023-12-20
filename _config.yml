@@ -20,9 +20,17 @@ favicon: assets/icons/favicon.ico
 remote_theme: hydecorp/hydejack@v9
 
 plugins:
-  - jekyll-feed
   - jekyll-remote-theme
-
+  - jekyll-default-layout
+  - jekyll-feed
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-titles-from-headings
 
 custom-javascript-list: assets/scripts/onload.js
 
