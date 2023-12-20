@@ -3,8 +3,7 @@
 # https://learnxinyminutes.com/docs/yaml/
 
 title: Ivar Rydstrom
-description: Ivar Rydstrom's Website
-show_description: false
+description: Physicist
 accent_image: assets/images/cryostat2.jpg
 lang: en
 keywords: [Ivar, Rydstrom, Physics, Computer Science, Research, SLAC, Stanford, Santa Clara, SCU, BlueFors, Oxford, Cryostat, LTD, Dark, Matter]
@@ -22,6 +21,7 @@ remote_theme: hydecorp/hydejack@v9
 
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 
 custom-javascript-list: assets/scripts/onload.js
@@ -32,8 +32,6 @@ hydejack:
   advertise: false
 
 menu:
-- title:             About
-  url:               /about/
 - title:             Research
   url:               /research/
 - title:             Projects
