@@ -29,7 +29,7 @@ custom-javascript-list: assets/scripts/onload.js
 hydejack:
   no_drawer: false
   no_toc: false
-  advertise: false
+  advertise: true
 
 menu:
 - title:             Research

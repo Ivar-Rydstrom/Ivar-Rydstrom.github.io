@@ -5,7 +5,8 @@ description: Personal Website of Ivar Rydstrom, Student at Santa Clara Universit
 hide_description: true
 cover: true
 ---
-{% include my-head.html %}
-{% include my-body.html %}
+{% include head.html %}
+{% include body.html %}
+
 <h2 class="h1" style="color: rgb(1,92,171)" id="about">Hello World</h2>
 
