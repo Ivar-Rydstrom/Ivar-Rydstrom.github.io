@@ -3,30 +3,28 @@
 # https://learnxinyminutes.com/docs/yaml/
 
 title: Ivar Rydstrom
-description: >- # this means to ignore newlines until "baseurl:"
-   
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-accent_image: static/images/cryostat2.jpg
+description: Ivar Rydstrom's Website
+show_description: false
+accent_image: assets/images/cryostat2.jpg
 lang: en
 keywords: [Ivar, Rydstrom, Physics, Computer Science, Research, SLAC, Stanford, Santa Clara, SCU, BlueFors, Oxford, Cryostat, LTD, Dark, Matter]
-
-github_username:  Ivar-Rydstrom
+github_username: Ivar-Rydstrom
 linkedin: ivar-rydstrom
 author:
-  name:              Ivar Rydstrom
-  email:             irydstrom@scu.edu
+  name: Ivar Rydstrom
+  email: irydstrom@scu.edu
 copyright: © 2024 Ivar Rydstrom. All rights reserved.
+favicon: assets/icons/favicon.ico
 
 # Build settings
-# theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9
+theme: jekyll-theme-hydejack
+# remote_theme: hydecorp/hydejack@v9
 
 plugins:
   - jekyll-feed
 
 
-custom-javascript-list: static/scripts/onload.js
+custom-javascript-list: assets/scripts/onload.js
 
 hydejack:
   no_drawer: false
