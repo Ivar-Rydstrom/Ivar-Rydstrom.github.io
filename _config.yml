@@ -14,6 +14,7 @@ author:
   email: irydstrom@scu.edu
 copyright: © 2024 Ivar Rydstrom. All rights reserved.
 favicon: assets/icons/favicon.ico
+apple_touch_icon: /assets/icons/icon-192x192.png
 
 # Build settings
 # theme: jekyll-theme-hydejack
@@ -40,8 +41,8 @@ hydejack:
   advertise: true
 
 menu:
-- title:             Research
-  url:               /research/
+- title:             About
+  url:               /
 - title:             Projects
   url:               /projects/
 - title:             CV
