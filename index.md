@@ -81,6 +81,12 @@ cover: true
         color: black;
         margin-bottom: 20px;
     }
+    footer p:nth-child(3) {
+        display: none;
+    }
+    footer {
+        margin-bottom: 0px;
+    }
 </style>
 <div id='heading' class='h1' markdown='1'>
 <div markdown='1'>

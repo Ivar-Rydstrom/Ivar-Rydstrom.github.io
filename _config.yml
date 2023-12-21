@@ -47,6 +47,8 @@ menu:
   url:               /projects/
 - title:             CV
   url:               /cv/
+- title:             Connect
+  url:               /#contact
 
 
 # Exclude from processing.
