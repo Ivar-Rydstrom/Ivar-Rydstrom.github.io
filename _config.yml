@@ -25,7 +25,6 @@ defaults:
 # Build settings
 # theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9
-baseurl: "/"
 
 plugins:
   - jekyll-remote-theme
