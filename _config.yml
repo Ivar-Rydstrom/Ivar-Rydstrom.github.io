@@ -15,6 +15,14 @@ copyright: © 2024 Ivar Rydstrom. All rights reserved.
 favicon: /assets/icons/favicon.ico
 apple_touch_icon: /assets/icons/icon-192x192.png
 
+defaults:
+  -
+    scope:
+      path:
+    values:
+      accent_image: /assets/images/cryostat2.jpg
+      hide_description: true
+
 # Build settings
 # theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9
