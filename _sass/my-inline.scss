@@ -58,6 +58,9 @@ header {
     margin-bottom: 0px;
     font-size: x-large;
 }
+.info-section {
+    display: flex;
+}
 .info-section ul {
     -moz-column-count: 2;
     -moz-column-gap: 10%;
@@ -73,7 +76,6 @@ header {
 }
 .info-section div:has(img) {
     margin-right: 20px;
-    /* margin-top: -5px; */
 }
 @media screen and (min-width: 750px) {
     .info-section ul {
@@ -109,4 +111,12 @@ footer {
 }
 article header {
     display: none;
+}
+.cv-content {
+    width: 100%;
+    height: 1100px;
+}
+.cv-container {
+    margin-bottom: 50px;
+    margin-top: 25px;
 }
