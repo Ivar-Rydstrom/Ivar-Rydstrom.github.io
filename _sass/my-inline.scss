@@ -1,4 +1,109 @@
-// You can add CSS rules here that will be inlined into each document.
-// .sidebar a {
-//   text-shadow: rgba(0, 0, 0, 0.25) 0.1rem 0.1rem 0.15rem;
-// }
+img[alt=Headshot] {
+    width: 135px;
+    height: auto;
+    border-radius: 50%;
+    position: relative;
+    /* right: 25%; */
+    top: -45px;
+    margin-bottom: -60px;
+}
+@media screen and (max-width: 1375px) {
+    img[alt=Headshot] {
+        width: 110px;
+        top: -25px;
+    }
+}
+@media screen and (max-width: 672px) {
+    img[alt=Headshot] {
+        width: 100px;
+        top: -23px;
+    }
+}
+@media screen and (max-width: 400px) {
+    img[alt=Headshot] {
+        width: 80px;
+        top: -20px;
+    }
+}
+@media screen and (max-width: 325px) {
+    img[alt=Headshot] {
+        width: 65px;
+        top: -16px;
+        right: 0%;
+    }
+}
+.page-title {
+    display: none;
+}
+header {
+    display: none;
+}
+.h1 h1 {
+    color: rgb(1,92,171);
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.h1 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100% !important;
+}
+.h1 p {
+    margin-bottom: 0px;
+}
+.subtitle {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: x-large;
+}
+.info-section ul {
+    -moz-column-count: 2;
+    -moz-column-gap: 10%;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 10%;
+    column-count: 1;
+    column-gap: 10%;
+    list-style: none;
+}
+.info-section li {
+    display: flex;
+    margin-bottom: 15px;
+}
+.info-section div:has(img) {
+    margin-right: 20px;
+    /* margin-top: -5px; */
+}
+@media screen and (min-width: 750px) {
+    .info-section ul {
+        column-count: 2;
+    }
+}
+.info-section img {
+    width: 25px;
+    height: auto;
+    max-width: none;
+}
+a.bold {
+    font-weight: bold;
+    color: #4fb1ba;
+}
+p.bold {
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+#contact-heading h1 {
+    font-size: 0.65em;
+    color: black;
+    margin-bottom: 20px;
+}
+footer p:nth-child(3) {
+    display: none;
+}
+footer {
+    margin-bottom: 0px;
+}
+#breadcrumbs {
+    display: none;
+}

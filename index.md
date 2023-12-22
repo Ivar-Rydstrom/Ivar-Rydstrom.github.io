@@ -2,92 +2,8 @@
 layout: page
 title: About
 description: Personal Website of Ivar Rydstrom, Student at Santa Clara University
-hide_description: true
 cover: true
 ---
-<style type="text/css">
-    img[alt=Headshot] {
-        width: 135px;
-        height: auto;
-        border-radius: 50%;
-        position: relative;
-        right: 25%;
-        top: -45px;
-        margin-bottom: -60px;
-    }
-    .page-title {
-        display: none;
-    }
-    header {
-        display: none;
-    }
-    .h1 h1 {
-        color: rgb(1,92,171);
-        margin-bottom: 0px;
-        margin-top: 0px;
-    }
-    .h1 {
-        margin-bottom: 0px;
-        margin-top: 0px;
-        display: flex;
-        justify-content: space-between;
-        width: 100% !important;
-    }
-    .h1 p {
-        margin-bottom: 0px;
-    }
-    .subtitle {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        font-size: x-large;
-    }
-    .info-section ul {
-        -moz-column-count: 2;
-        -moz-column-gap: 10%;
-        -webkit-column-count: 2;
-        -webkit-column-gap: 10%;
-        column-count: 1;
-        column-gap: 10%;
-        list-style: none;
-    }
-    .info-section li {
-        display: flex;
-        margin-bottom: 15px;
-    }
-    .info-section div:has(img) {
-        margin-right: 20px;
-        /* margin-top: -5px; */
-    }
-    @media screen and (min-width: 800px) {
-        .info-section ul {
-            column-count: 2;
-        }
-    }
-    .info-section img {
-        width: 25px;
-        height: auto;
-        max-width: none;
-    }
-    a.bold {
-        font-weight: bold;
-        color: #4fb1ba;
-    }
-    p.bold {
-        font-weight: bold;
-        margin-bottom: 0px;
-    }
-    #contact-heading h1 {
-        font-size: 0.65em;
-        color: black;
-        margin-bottom: 20px;
-    }
-    footer p:nth-child(3) {
-        display: none;
-    }
-    footer {
-        margin-bottom: 0px;
-    }
-</style>
 <div id='heading' class='h1' markdown='1'>
 <div markdown='1'>
 
@@ -104,7 +20,7 @@ Hi, I'm Ivar. I'm a senior Engineering Physics student in the Honors College at 
 
 I'm also the current president of the [Society of Physics Students](https://www.instagram.com/scu.sps/){:target="_blank"} chapter at SCU. Please reach out if you are interested in joining our community!
 
-My research interests fall in the realm of experimental particle astrophysics: particulary I'm interested in developing low temperature detectors to search for dark matter. I currently work with [Dr. Betty Young](https://www.scu.edu/cas/physics/faculty/betty-a-young/){:target="_blank"} at SCU in her collaboration with [Dr. Noah Kurinsky](https://kipac.stanford.edu/people/noah-kurinsky-0){:target="_blank"} at [SLAC National Accelerator Laboratory](https://www6.slac.stanford.edu/){:target="_blank"} in the *Dark Matter and Quantum Information Science (DMQIS)* group. We develop novel superconducting quantum sensors for dark matter detection in our lab, SLAC Millikelvin Facility (SMF).
+My research interests fall in the realm of experimental particle astrophysics: particulary I'm interested in developing low temperature detectors to search for dark matter. I currently work with [Dr. Betty Young](https://www.scu.edu/cas/physics/faculty/betty-a-young/){:target="_blank"} at SCU in her collaboration with [Dr. Noah Kurinsky](https://kipac.stanford.edu/people/noah-kurinsky-0){:target="_blank"} at [SLAC National Accelerator Laboratory](https://www6.slac.stanford.edu/){:target="_blank"} in the *Dark Matter and Quantum Information Science (DMQIS)* group. We develop novel superconducting quantum sensors for dark matter detection in our lab, *SLAC Millikelvin Facility (SMF)*.
 
 Currently, I am most involved in developing room-temperature electronics for the SPLENDOR project, a prototype dark matter experiment that will use novel narrow-gap semiconductors as detectors to probe dark matter masses below the O(meV) regime. Our two-staged High Electron Mobility Transistor (HEMT) amplifier is projected to achieve a charge-resolution of O(1e<sup>-</sup>). This project is an exciting collaboration between various institutions on the bleeding edge of charge based readout technology.
 
