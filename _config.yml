@@ -4,6 +4,7 @@
 
 title: Ivar Rydstrom
 description: Physicist
+accent_image: assets/images/cryostat2.jpg
 lang: en
 keywords: [Ivar, Rydstrom, Physics, Computer Science, Research, SLAC, Stanford, Santa Clara, SCU, BlueFors, Oxford, Cryostat, LTD, Dark, Matter]
 github_username: Ivar-Rydstrom
@@ -12,15 +13,8 @@ author:
   name: Ivar Rydstrom
   email: irydstrom@scu.edu
 copyright: © 2024 Ivar Rydstrom. All rights reserved.
-favicon: /assets/icons/favicon.ico
+favicon: assets/icons/favicon.ico
 apple_touch_icon: /assets/icons/icon-192x192.png
-
-defaults:
-  - scope:
-      path:
-    values:
-      accent_image: /assets/images/cryostat2.jpg
-      hide_description: true
 
 # Build settings
 # theme: jekyll-theme-hydejack
