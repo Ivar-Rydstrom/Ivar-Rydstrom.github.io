@@ -21,8 +21,10 @@ breadcrumbs: true
 ---
 
 
-<div class="info-section cv-container">
+<div class="info-section cv-pdf-container">
 <div><img src="assets/images/pdf-pin.png" alt="CV PDF"></div>
 <a href="https://ivar-rydstrom.github.io/assets/content/Ivar_Rydstrom_CV_Public.pdf" class="no-mark-external bold" target="_blank">Download a PDF</a>
 </div>
+<div class="cv-container">
 <object class="cv-content" data="https://ivar-rydstrom.github.io/assets/content/Ivar_Rydstrom_CV_Public.pdf" type='application/pdf'>Loading Ivar's CV...</object>
+</div>

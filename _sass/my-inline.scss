@@ -112,11 +112,21 @@ footer {
 article header {
     display: none;
 }
-.cv-content {
-    width: 100%;
-    height: 1100px;
-}
-.cv-container {
+.cv-pdf-container {
     margin-bottom: 50px;
     margin-top: 25px;
+}
+.cv-container {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 220%;
+    margin-bottom: 50%;
+}
+.cv-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 118.5%;
 }
