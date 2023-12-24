@@ -70,7 +70,6 @@ Code for integrating CloudFlare's email protection with Hydejack's single page a
         .start();
     }
   })();
-  // ensure typewriter only tries to exist if it is able to exist
   var typewriter_observer = new MutationObserver(function(mut) {
     if (document.querySelector(".sidebar-about p")) {
       typewriter_observer.disconnect();

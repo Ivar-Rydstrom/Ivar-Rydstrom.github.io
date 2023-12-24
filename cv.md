@@ -9,11 +9,6 @@ breadcrumbs: true
         color: rgb(1,92,171);
         margin-top: 0px;
     }
-    .pdf-section img {
-        width: 25px;
-        height: auto;
-        max-width: none;
-    }
 </style>
 
 # Curriculum Vitae {#cv}
@@ -25,6 +20,5 @@ breadcrumbs: true
 <div><img src="assets/images/pdf-pin.png" alt="CV PDF"></div>
 <a href="https://ivar-rydstrom.github.io/assets/content/Ivar_Rydstrom_CV_Public.pdf" class="no-mark-external bold" target="_blank">Download a PDF</a>
 </div>
-<div class="cv-container">
-<object class="cv-content" data="https://ivar-rydstrom.github.io/assets/content/Ivar_Rydstrom_CV_Public.pdf" type='application/pdf'>Loading Ivar's CV...</object>
-</div>
+
+<iframe class="cv-pdf" src="https://docs.google.com/gview?url=https://ivar-rydstrom.github.io/assets/content/Ivar_Rydstrom_CV_Public.pdf&embedded=true" frameborder="0">Loading Now</iframe>

@@ -1,3 +1,4 @@
+// ABOUT PAGE STYLE
 img[alt=Headshot] {
     width: 135px;
     height: auto;
@@ -112,6 +113,7 @@ footer {
 article header {
     display: none;
 }
+// CV PAGE STYLE
 .cv-pdf-container {
     margin-bottom: 50px;
     margin-top: 25px;
@@ -130,3 +132,12 @@ article header {
     width: 100%;
     height: 118.5%;
 }
+.pdf-section img {
+    width: 25px;
+    height: auto;
+    max-width: none;
+}
+.cv-pdf {
+    width: 100%;
+    height: 800px;
+  }
