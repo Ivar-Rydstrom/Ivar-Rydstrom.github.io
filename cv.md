@@ -12,9 +12,9 @@ breadcrumbs: true
 </style>
 
 # Curriculum Vitae {#cv}
+<h3 id="cv-updated">Updated December 2023</h3>
 
 ---
-
 
 <div class="info-section cv-pdf-container">
 <div><img src="assets/images/pdf-pin.png" alt="CV PDF"></div>
