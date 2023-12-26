@@ -52,6 +52,8 @@ menu:
   url:               /
 - title:             Projects
   url:               /projects
+- title:             Tutoring
+  url:               /tutoring
 - title:             CV
   url:               /cv
 - title:             Connect

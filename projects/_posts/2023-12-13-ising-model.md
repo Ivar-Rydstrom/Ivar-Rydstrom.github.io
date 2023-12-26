@@ -23,7 +23,7 @@ In addition to the primary Ising Model algorithm, I developed a "cluster searchi
 
 
 [![Ising Model](/assets/images/ising/ising2.png){:.center-img style="width:65%;height:auto"}](https://ivar-rydstrom.github.io/ising_model/){:target="_blank" style="width:fit-content"}
-*"Ising Model Simulation" interactive web interface running with a lattice size of 300x300.*
+*"Ising Model Simulation" interactive web interface running with a lattice size of 300x300.*{:.caption}
 
 This work is inspired by the Chapter 8 problems and algorithm pseudocode in *An Introduction to Thermal Physics* by Daniel V. Schroeder, and was completed for a class final project in Physics 120, Thermal Physics.
 

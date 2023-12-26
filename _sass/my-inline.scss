@@ -32,12 +32,7 @@ img.center-img {
 a:has(img.center-img) { // correct <a> tags wrapping .center-img
     display: contents;
 }
-img + em { // for image captions
-    display: block;
-    text-align: center;
-    font-size: 0.8em;
-}
-a + em { // for image captions
+em.caption { // for image captions
     display: block;
     text-align: center;
     font-size: 0.8em;
