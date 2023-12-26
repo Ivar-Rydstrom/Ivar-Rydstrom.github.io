@@ -8,9 +8,11 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Physicist, Computer Scientist, and other related things
-    
-    This is all `involved`
+    Ivar is a physics student at 
+    [Santa Clara University](https://www.scu.edu/cas/physics/){:target="_blank" .no-mark-external} 
+    and student researcher at 
+    [SLAC National Accelerator Laboratory](https://www6.slac.stanford.edu/){:target="_blank" .no-mark-external}.
+    You can find more of his projects [here](/projects).
 
   # This photo will be used in the about section
   picture:

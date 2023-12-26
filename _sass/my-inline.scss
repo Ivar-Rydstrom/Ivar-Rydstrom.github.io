@@ -1,3 +1,65 @@
+// GENERAL STYLE RULES
+.page-title-text {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100% !important;
+    // color: rgb(1,92,171);
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.page-title-text h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.subtitle {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: x-large;
+    color: grey;
+    font-weight: normal;
+}
+// .page-title {
+//     display: none;
+// }
+img.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+a:has(img.center-img) { // correct <a> tags wrapping .center-img
+    display: contents;
+}
+img + em { // for image captions
+    display: block;
+    text-align: center;
+    font-size: 0.8em;
+}
+a + em { // for image captions
+    display: block;
+    text-align: center;
+    font-size: 0.8em;
+}
+a.bold {
+    font-weight: bold;
+    color: #4fb1ba;
+}
+p.bold {
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+// SIDE BAR STYLE
+#typewriter_text {
+    font-size: 1.2em;
+    color: #ffffffeb;
+}
+a::after { // replace the need for the no-mark-external class
+    display:none;
+}
+
 // ABOUT PAGE STYLE
 img[alt=Headshot] {
     width: 135px;
@@ -33,14 +95,8 @@ img[alt=Headshot] {
         right: 0%;
     }
 }
-.page-title {
-    display: none;
-}
-header {
-    display: none;
-}
 .h1 h1 {
-    color: rgb(1,92,171);
+    // color: rgb(1,92,171);
     margin-bottom: 0px;
     margin-top: 0px;
 }
@@ -53,11 +109,6 @@ header {
 }
 .h1 p {
     margin-bottom: 0px;
-}
-.subtitle {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: x-large;
 }
 .info-section {
     display: flex;
@@ -88,14 +139,6 @@ header {
     height: auto;
     max-width: none;
 }
-a.bold {
-    font-weight: bold;
-    color: #4fb1ba;
-}
-p.bold {
-    font-weight: bold;
-    margin-bottom: 0px;
-}
 #contact-heading h1 {
     font-size: 0.65em;
     color: black;
@@ -111,8 +154,9 @@ footer {
     display: none;
 }
 article header {
-    display: none;
+    // display: none;
 }
+
 // CV PAGE STYLE
 .cv-pdf-container {
     margin-bottom: 35px;
@@ -141,12 +185,11 @@ article header {
     width: 100%;
     height: 800px;
 }
-#cv {
-    margin-bottom: 5px;
-}
 #cv-updated {
     margin-top: 0px;
 }
 #cv-updated a {
     display: none;
 }
+
+// POSTS
