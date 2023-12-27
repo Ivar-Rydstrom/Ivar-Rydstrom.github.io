@@ -1,11 +1,12 @@
 ---
 layout: post
-title: An Interactive Ising Model Simulation
+title: Interactive Ising Model Simulation
 image: /assets/images/ising/ising.png
-description: An interactive ising model simulation built in p5.js
+description: A web-based physics simulation built in p5.js
 category: projects
 permalink: /projects/ising-model
 related_posts: ""
+tags: [physics, computer science]
 ---
 Access the online simulation [here](https://ivar-rydstrom.github.io/ising_model/){:target="_none"}. View this project on GitHub [here](https://github.com/Ivar-Rydstrom/ising_model){:target="_none"}.
 

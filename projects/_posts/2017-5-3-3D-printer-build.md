@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A 3D Printer Assembled by Hand
-image: /assets/images/3D_Printer/vase.jpg
+image: /assets/images/3D_Printer/wires_square.jpg
 description: A 3D printer assembled and upgraded by hand
 category: projects
 permalink: /projects/3d-printer

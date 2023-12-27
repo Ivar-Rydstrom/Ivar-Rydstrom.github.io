@@ -22,7 +22,12 @@ defaults:
     values:
       accent_image: /assets/images/cryostat2.jpg
       hide_description: true
-
+  -
+    scope:
+      path: "projects"
+    values:
+      description: A project by Ivar Rydstrom
+      image: /assets/icons/icon-512x512.png
 # Build settings
 # theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9
