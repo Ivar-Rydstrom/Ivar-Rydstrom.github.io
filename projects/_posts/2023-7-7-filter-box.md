@@ -38,5 +38,8 @@ The current version of Filter Box provides high attenuation to any current-noise
 ![Proposed mounting bracket](/assets/images/filterbox/bracket.png){:.center-img style="width:65%;height:auto"}
 *Custom designed mounting bracket solution for horizontally oriented hermetic feed-throughs. Seen configured with Filter Box V3 and a mockup cryostat.*{:.caption style="width:65%;margin-left:auto;margin-right:auto"}
 
+![Mounting Bracket 2](/assets/images/filterbox/bracket2.png){:.center-img style="width:65%;height:auto"}
+*Alternative mounting bracket solution for vertically oriented hermetic feed-throughs.*{:.caption}
+
 ![Version 4 Filter Box Cad Drawing](/assets/images/filterbox/cad2.png){:.center-img style="width:65%;height:auto"}
 *Early rendering of Filter Box Version 4 in Solidworks CAD software.*{:.caption}
