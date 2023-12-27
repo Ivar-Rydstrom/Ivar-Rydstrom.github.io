@@ -55,7 +55,7 @@ a::after { // replace the need for the no-mark-external class
     display:none;
 }
 #_swipe {
-    opacity: 80%;
+    opacity: 80% !important;
     -moz-opacity: 80%;
     -webkit-opacity: 80%;
 }
