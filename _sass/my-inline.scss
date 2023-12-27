@@ -54,6 +54,9 @@ p.bold {
 a::after { // replace the need for the no-mark-external class
     display:none;
 }
+#_swipe {
+    opacity: 80%;
+}
 
 // ABOUT PAGE STYLE
 img[alt=Headshot] {
