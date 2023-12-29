@@ -1,10 +1,19 @@
 ---
 layout: post
-title: A Video Replay Tracker for YouTube.com
-image:
-description: A browser extension that tracks the total ammount of times a certain video has been replayed.
+title: YouTube Replay Counter
+image: /assets/images/youtube_replay_counter/cover.png
+description: An injection script which seamlessly integrates a replay counter for YouTube videos
 category: projects
 permalink: /projects/youtube-replay-counter
 related_posts: ""
+tags: [computer science]
 ---
-[GitHub Link](https://github.com/Ivar-Rydstrom/YouTube-Replay-Count)
+[View this project on GitHub](https://github.com/Ivar-Rydstrom/YouTube-Replay-Count).
+
+YouTube Replay Counter is a simple [Tampermonkey](https://www.tampermonkey.net/) injection script which adds a "plays" counter to the native YouTube player. It tracks the total ammount of times a video has been replayed.
+
+![YouTube Replay Counter](/assets/images/youtube_replay_counter/plays.png){:.center-img style="width:65%;height:auto"}
+*YouTube Replay Counter script injecing a "plays" count to the native YouTube player.*{:.caption}
+
+The script uses browser cookies to track the total ammount of plays each video has. During each watch session, it tracks a "watch delta" by periodically monitoring the video progress.
+Once the watch delta exceeds a threshold (by default 75%), it will add one play to the counter stored in cookies. The next time it updates the play count indicator, it parses this cookie variable and displays the replay count for that video.
