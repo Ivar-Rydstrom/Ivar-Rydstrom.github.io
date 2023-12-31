@@ -36,7 +36,7 @@ The current version of Filter Box provides high attenuation to any current-noise
 *Filter Box Version 4 PCB designed in KiCad Software.*{:.caption}
 
 ![Proposed mounting bracket](/assets/images/filterbox/bracket.png){:.center-img style="width:65%;height:auto"}
-*Custom designed mounting bracket solution for horizontally oriented hermetic feedthroughs. Seen configured with Filter Box V3 and a mockup cryostat.*{:.caption style="width:65%;margin-left:auto;margin-right:auto"}
+*Custom designed mounting bracket solution for horizontally oriented hermetic feedthroughs. Seen configured with Filter Box V3 and a mockup cryostat.*{:.caption}
 
 ![Mounting Bracket 2](/assets/images/filterbox/bracket2.png){:.center-img style="width:65%;height:auto"}
 *Alternative mounting bracket solution for vertically oriented hermetic feedthroughs.*{:.caption}

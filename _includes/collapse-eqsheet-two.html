@@ -1,0 +1,13 @@
+<div class="sheet-container" id="eq-sheet-{{ eq-index }}" >
+    <img class="preview-sheet" src="/assets/content/equation-sheets/JPG/{{ include.slug }}/{{ include.slug }}-1.jpg" alt="Loading page..."/>
+    <img class="preview-sheet" src="/assets/content/equation-sheets/JPG/{{ include.slug }}/{{ include.slug }}-2.jpg" alt="Loading page..."/>
+    <p class="newline" >{{ include.title }}</p>
+    <a href="/assets/content/equation-sheets/PDF/{{ include.slug }}.pdf" >Download PDF</a>
+</div>
+<script>
+    document.querySelector("#eq-sheet-{{ eq-index }}").addEventListener("click", function() {
+        window.location = "/assets/content/equation-sheets/PDF/{{ include.slug }}.pdf";
+    })
+</script>
+{% assign eq-index = eq-index | plus: 1 %}
+

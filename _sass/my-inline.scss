@@ -313,3 +313,97 @@ main:not(.layout-resume) {
     }
 }
   
+// Equation Sheet Style
+.wrap-collapsible {
+    margin-bottom: 1.2rem 0;
+}
+input[type='checkbox'] {
+    display: none;
+}
+.lbl-toggle {
+    display: block;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.3rem;
+    color: white;
+    background: var(--accent-color);
+    cursor: pointer;
+    border-radius: 7px;
+    transition: all 0.25s ease-out;
+}
+.lbl-toggle:hover {
+    color: #efefef;
+}
+.lbl-toggle::before {
+    content: ' ';
+    display: inline-block;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid currentColor;
+    vertical-align: middle;
+    margin-right: .7rem;
+    transform: translateY(-2px);
+    transition: transform .2s ease-out;
+}
+.toggle:checked + .lbl-toggle::before {
+    transform: rotate(90deg) translateX(-3px);
+}
+.collapsible-content {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height .25s ease-in-out;
+}
+.toggle:checked + .lbl-toggle + .collapsible-content {
+    max-height: 100vh;
+}
+.toggle:checked + .lbl-toggle {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.collapsible-content .content-inner {
+    background: rgba(79, 177, 186, 0.232);
+    border-bottom: 5px solid rgb(177, 177, 177);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding: .5rem 1rem;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.sheet-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 45%;
+    background: rgba(118, 175, 200, 0.31);
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.sheet-container:hover {
+    background: rgba(84, 127, 145, 0.31);
+}
+@media screen and (max-width: 450px) { // small screens
+    .collapsible-content .content-inner {
+        flex-direction: column;
+    }
+    .sheet-container {
+        width: 90%;
+    }
+}
+img.preview-sheet {
+    width: 45%;
+    border-radius: 7px;
+}
+p.newline {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}

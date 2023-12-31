@@ -34,12 +34,12 @@ In this way, my implementation of snake only stores the location of two segments
 
 
 ![Snake code library](/assets/images/calc/snake_lib.png){:.center-img style="width:65%;height:auto"}
-*Auxiliary programs emulating callable "functions" in my Snake implementation, as seen in the program execution menu.*{:.caption style="width:50%"}
+*Auxiliary programs emulating callable "functions" in my Snake implementation, as seen in the program execution menu.*{:.caption}
 
 ## Flappy Bird
 
 ![Flappy Bird Game](/assets/images/calc/flap1.png){:.center-img style="width:65%;height:auto"}
-*Flappy Bird Clone game played on a TI-84 Plus CE.*{:.caption}
+*Flappy Bird clone game played on a TI-84 Plus CE.*{:.caption}
 
 The wildly popular 2013 game [***Flappy Bird***](https://flappybird.io/) is one of the most re-created games of all time, especially after its removal from the App Store and Google Play Store in 2014. I had my hand at re-creating this popular game, myself, in TI-BASIC.
 
@@ -49,7 +49,7 @@ My clone utilizes the convenient `Menu` framework built into the calculator lang
 *Difficulty selection menu in my Flappy Bird clone.*{:.caption}
 
 ![Flappy Bird Code](/assets/images/calc/flap_code.png){:.center-img style="width:65%;height:auto"}
-*A code sample of the DRAW sub-program powering Flappy Bird Clone.*{:.caption}
+*A code sample of the DRAW sub-program powering Flappy Bird.*{:.caption}
 
 ## Pong
 
