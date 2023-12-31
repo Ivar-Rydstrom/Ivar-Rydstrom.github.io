@@ -16,7 +16,7 @@ tags: [engineering]
 
 [Anet](https://anet3d.com/pages/about-anet-printer-supplier) is a Chinese 3D printing supplier company founded in 2015 which sells inexpensive 3D printers and components around the world. Their most popular model, the Anet A8 utilizes an open-source design initially developed by [Prusa Research](https://www.prusa3d.com/page/about-us_77/).
 
-![Anet A8 Marketing Image](/assets/images/3D_Printer/anet-a8.jpeg){:.center-img style="width:65%;height:auto"}
+![Anet A8 Marketing Image](/assets/images/3D_Printer/anet-a8.jpg){:.center-img style="width:65%;height:auto"}
 *Anet A8 marketing image.*{:.caption}
 
 In 2017, I purchased an Anet A8 since I was somewhat interested in 3D printing technology and it was the cheapest option available on the market. At the time, 3D printing technology was just still budding and most 3D printers costed $500-$1,500 on the low end. The Anet A8 was intriguing since it only costed $170.
