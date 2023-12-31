@@ -6,6 +6,7 @@ description: Tampermonkey injection script for visual front-end modification and
 category: projects
 permalink: /projects/youtube-modifications
 related_posts: ""
+tags: [computer science]
 ---
 [View this project on GitHub](https://github.com/Ivar-Rydstrom/Personal-Youtube-Modifications).
 

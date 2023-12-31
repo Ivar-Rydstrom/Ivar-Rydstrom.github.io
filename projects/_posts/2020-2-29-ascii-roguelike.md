@@ -8,11 +8,11 @@ permalink: /projects/ascii-roguelike
 related_posts: ""
 tags: [computer science]
 ---
-[View this project on GitHub](https://github.com/irvinehacks2019/ascii_roguelike)
+[View this project on GitHub](https://github.com/irvinehacks2019/ascii_roguelike).
 
 # Irvine Hacks
 
-[Irvine Hacks](https://irvine-hacks-9612.devpost.com/) is a 12 hour in-person hackathon event for high school students hosted by [Redwood Code Academy](https://redwoodcodeacademy.com/). For the 2020 edition, my team consisting of [Raymond Wong](https://github.com/Raymond-exe), [Kabir Kwatra](https://github.com/Kab1r), [Dante Cofano](https://github.com/dantecofano), and I developed a turn-based roguelike game using ascii-art graphics that runs in the command line.
+[Irvine Hacks](https://irvine-hacks-9612.devpost.com/) is a 12 hour in-person hackathon event for high school students hosted by [Redwood Code Academy](https://redwoodcodeacademy.com/). For the 2020 edition, my team consisting of [Raymond Wong](https://github.com/Raymond-exe), [Kabir Kwatra](https://github.com/Kab1r), [Dante Cofano](https://github.com/dantecofano), and I developed a turn-based [roguelike game](https://en.wikipedia.org/wiki/Roguelike) using ascii-art graphics that runs in the command line.
 
 It features a procedurally generated dungeon maze that the player must traverse while collecting weapons and defeating monsters. The game gets progressively more difficult as the player advances to deeper levels of the roguelike adventure.
 
