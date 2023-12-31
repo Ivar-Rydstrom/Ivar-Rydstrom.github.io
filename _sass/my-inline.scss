@@ -329,13 +329,13 @@ input[type='checkbox'] {
     text-align: center;
     padding: 0.3rem;
     color: white;
-    background: var(--accent-color);
+    background: rgb(137, 213, 219);
     cursor: pointer;
     border-radius: 7px;
     transition: all 0.25s ease-out;
 }
 .lbl-toggle:hover {
-    color: #efefef;
+    color: #ececec;
 }
 .lbl-toggle::before {
     content: ' ';
@@ -365,7 +365,7 @@ input[type='checkbox'] {
 }
 .collapsible-content .content-inner {
     background: rgba(79, 177, 186, 0.232);
-    border-bottom: 5px solid rgb(177, 177, 177);
+    border-bottom: 5px solid rgba(149, 226, 233, 0.23);
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
     padding: .5rem 1rem;
@@ -378,7 +378,6 @@ input[type='checkbox'] {
     display: flex;
     justify-content: space-evenly;
     width: 45%;
-    background: rgba(118, 175, 200, 0.31);
     flex-wrap: wrap;
     margin: auto;
     margin-bottom: 10px;
