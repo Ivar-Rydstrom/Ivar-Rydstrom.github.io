@@ -35,7 +35,7 @@ All equation sheets are compiled by Ivar Rydstrom, unless otherwise stated. Digi
     <div class="collapsible-content">
         <div class="content-inner">
             <p>
-                {% include collapse-eqsheet-one.html title="Introductory E&M (Dr. Young)" slug="phys33-dryoung" %}
+                {% include collapse-eqsheet-one.html title="Introductory E&M (Dr. Young)" slug="PHYS33-dryoung" %}
                 {% include collapse-eqsheet-two.html title="Electrodynamics" slug="PHYS112" %}
                
             </p>
