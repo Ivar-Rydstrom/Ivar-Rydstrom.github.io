@@ -10,7 +10,7 @@ tags: [engineering]
 ---
 ## Fused Deposition Modeling
 
-[Fused Deposition Modeling (*FDM*)](https://en.wikipedia.org/wiki/Fused_filament_fabrication), commonly refered to just as ***"3D printing"***, is a manufacturing method that uses a continuous controlled stream of molten plastic to form solid structures modeled in [CAD](https://en.wikipedia.org/wiki/Computer-aided_design). It is not the only method of 3D printing, but it is the most common, readily avalable, and affordable technology. Also see [SLA/*"optical resin printing"*](https://en.wikipedia.org/wiki/Stereolithography) and [SLS/*"powder bed fusion printing"*](https://en.wikipedia.org/wiki/Selective_laser_sintering).
+[Fused Deposition Modeling (*FDM*)](https://en.wikipedia.org/wiki/Fused_filament_fabrication), commonly referred to just as ***"3D printing"***, is a manufacturing method that uses a continuous controlled stream of molten plastic to form solid structures modeled in [CAD](https://en.wikipedia.org/wiki/Computer-aided_design). It is not the only method of 3D printing, but it is the most common, readily available, and affordable technology. Also see [SLA/*"optical resin printing"*](https://en.wikipedia.org/wiki/Stereolithography) and [SLS/*"powder bed fusion printing"*](https://en.wikipedia.org/wiki/Selective_laser_sintering).
 
 ## Building a 3D Printer
 
@@ -27,6 +27,6 @@ In 2017, I purchased an Anet A8 since I was somewhat interested in 3D printing t
 Unfortunately, since the quality of the components were quite low and the design was extremely barebones, the printer featured numerous design flaws that prevented it from being a useful manufacturing tool without heavy modification. This sparked me to join a community of makers who designed modified components specifically for the Anet A8 with the goal of making it a good 3D printer.
 
 ![Assembled Anet A8 3D Printer](/assets/images/3D_Printer/vase.JPG){:.center-img style="width:65%;height:auto"}
-*My fully assembled and heavily modified Anet A8 3D printer, featuring chainlinked X and Y axis cable guides, external MOSFET upgrade for hotbed power, improved fan guide for print cooling, modified belt tensioners and endstop sensor hardware, and custom frame-mounted spool holder (not all pictured).*{:.caption style="width:65%;margin-left:auto;margin-right:auto"}
+*My fully assembled and heavily modified Anet A8 3D printer, featuring chain-linked X and Y axis cable guides, external MOSFET upgrade for hotbed power, improved fan guide for print cooling, modified belt tensioners and endstop sensor hardware, and custom frame-mounted spool holder (not all pictured).*{:.caption style="width:65%;margin-left:auto;margin-right:auto"}
 
-Throughout its service, my Anet A8 burned through 3 main boards, 2 hotbeds, at least one glue stick, more than half a dozen [BuildTak](https://www.buildtak.com/) print surfaces (highly recommended!), and many many extruder tips. What it gave back to me was tinering and problem solving experience that can not be simulated in any other way.
+Throughout its service, my Anet A8 burned through 3 main boards, 2 hotbeds, at least one glue stick, more than half a dozen [BuildTak](https://www.buildtak.com/) print surfaces (highly recommended!), and many many extruder tips. What it gave back to me was tinkering and problem solving experience that can not be simulated in any other way.

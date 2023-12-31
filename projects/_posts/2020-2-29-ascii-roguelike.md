@@ -21,7 +21,7 @@ It features a procedurally generated dungeon maze that the player must traverse 
 
 The game is built in vanilla Java, and takes advantage of basic inheritance class structures to implement different kinds of monsters and interactable entities. The procedural generation algorithm ensures that all parts of the maze are generated such that they are accessible to the player and the monsters.
 
-The most impressive feature is probably the basic enemy pathfinding algorithm used to direct the enemies towards the player through the randomly generated maze.
+The most impressive feature is probably the basic enemy path-finding algorithm used to direct the enemies towards the player through the randomly generated maze.
 
 ![Game Board](/assets/images/ascii_roguelike/game2.png){:.center-img style="width:65%;height:auto"}
 *Player information screen.*{:.caption}

@@ -13,12 +13,12 @@ Access the online simulation [here](https://ivar-rydstrom.github.io/ising_model/
 ## Model
 The Ising Model is a nearest-neighbor numerical model for ferromagnetic behavior of atomic dipole lattice systems. This model assumes atomic dipoles occupy one of two anti-parallel states, which is modeled as a magnetization value of either +1 or -1 for each quantized lattice unit.
 
-Every turn, the algorithm iterates through each dipole and consideres the change in total energy of flipping that dipole. If flipping a dipole would result in a lower total energy, then it is always flipped. Otherwise, it is flipped randomly according to Boltzmann statistics. The total energy is modeled using only the interactions of nearest cardinal neighbors. [Learn more about the Ising Model here](https://en.wikipedia.org/wiki/Ising_model).
+Every turn, the algorithm iterates through each dipole and considers the change in total energy of flipping that dipole. If flipping a dipole would result in a lower total energy, then it is always flipped. Otherwise, it is flipped randomly according to Boltzmann statistics. The total energy is modeled using only the interactions of nearest cardinal neighbors. [Learn more about the Ising Model here](https://en.wikipedia.org/wiki/Ising_model).
 
 ## Implementation
 My implementation of this model uses the [p5.js](https://p5js.org/) javascript framework and native HTML elements to provide an interactive web interface for manipulating model parameters in real time.
 
-I used perodic boundary conditions in this approximation. This allows us to neglect edge effects by emulating an *infinite* lattice. I also simplified the problem to two dimensions for simplicity.
+I used periodic boundary conditions in this approximation. This allows us to neglect edge effects by emulating an *infinite* lattice. I also simplified the problem to two dimensions for simplicity.
 
 In addition to the primary Ising Model algorithm, I developed a "cluster searching" algorithm that searches the lattice for contiguous "clusters" of like-aligned dipoles. With this information, we are able to calculate some basic statistics about the size and number of clusters, which is highly insightful for analyzing critical parameters that lead to convergence.
 

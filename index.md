@@ -17,11 +17,11 @@ cover: true
 
 <hr>
 
-Hi, I'm Ivar. I'm a senior Engineering Physics student in the Honors College at [Santa Clara University](https://www.scu.edu/cas/physics/). Aside from phyiscs, I'm also studying Mathematics and Computer Engineering as minors.
+Hi, I'm Ivar. I'm a senior Engineering Physics student in the Honors College at [Santa Clara University](https://www.scu.edu/cas/physics/). Aside from physics, I'm also studying Mathematics and Computer Engineering as minors.
 
 I'm also the current president of the [Society of Physics Students](https://www.instagram.com/scu.sps/) chapter at SCU. Please reach out if you are interested in joining our community!
 
-My research interests fall in the realm of experimental particle astrophysics: particulary I'm interested in developing low temperature detectors to search for dark matter. I currently work with [Dr. Betty Young](https://www.scu.edu/cas/physics/faculty/betty-a-young/) at SCU in her collaboration with [Dr. Noah Kurinsky](https://kipac.stanford.edu/people/noah-kurinsky-0) at [SLAC National Accelerator Laboratory](https://www6.slac.stanford.edu/) in the *Dark Matter and Quantum Information Science (DMQIS)* group. We develop novel superconducting quantum sensors for dark matter detection in our lab, *SLAC Millikelvin Facility (SMF)*.
+My research interests fall in the realm of experimental particle astrophysics: particularly I'm interested in developing low temperature detectors to search for dark matter. I currently work with [Dr. Betty Young](https://www.scu.edu/cas/physics/faculty/betty-a-young/) at SCU in her collaboration with [Dr. Noah Kurinsky](https://kipac.stanford.edu/people/noah-kurinsky-0) at [SLAC National Accelerator Laboratory](https://www6.slac.stanford.edu/) in the *Dark Matter and Quantum Information Science (DMQIS)* group. We develop novel superconducting quantum sensors for dark matter detection in our lab, *SLAC Millikelvin Facility (SMF)*.
 
 Currently, I am most involved in developing room-temperature electronics for the SPLENDOR project, a prototype dark matter experiment that will use designer narrow-gap semiconductors to probe particle-like "light" dark matter of mass in the sub-MeV regime. Our two-stage High Electron Mobility Transistor (HEMT) amplifier is projected to achieve a charge-resolution of O(1e<sup>-</sup>). This project is an exciting collaboration between various institutions that is advancing the bleeding edge of ionization detector and charge-based readout technology.
 
