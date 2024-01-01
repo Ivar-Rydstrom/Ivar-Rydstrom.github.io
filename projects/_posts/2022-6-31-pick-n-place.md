@@ -25,4 +25,4 @@ The pick-n-place is controlled entirely from an [Raspberry-pi](https://www.raspb
 *Raspberry Pi control unit and pneumatic suction motor in custom 3D printed case.*{:.caption}
 
 ![Animation loading...](/assets/images/picknplace/animation.gif){:.center-img style="width:65%;height:auto"}
-*Pick-n-place machine operated by SPLENDOR collaborator [Samuel Watkins](https://slwatkins.com/about/) in SLAC lab.*{:.caption}
+*Pick-n-place machine operated by SPLENDOR collaborator [Samuel Watkins](https://slwatkins.com/about/) in the SLAC lab.*{:.caption}

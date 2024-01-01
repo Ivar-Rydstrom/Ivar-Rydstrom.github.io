@@ -14,12 +14,12 @@ tags: [computer science]
 
 In 2017, YouTube.com pushed a new front-end interface to their site, referred to as "Polymer," which facilitated the introduction of the wildly popular "shorts" video format. For those so inclined (me), they implemented a way to temporarily request the original interface for personal preference reasons using the query parameter: `disable_polymer=1`. This sparked many users to implement scripts to automatically include the query parameter upon visiting the site.
 
-![Pre-Polymer YouTube Interface](/assets/images/youtube_mod/pre_polymer.png){:.center-img style="width:65%;height:auto"}
+![Pre-Polymer YouTube Interface](/assets/images/youtube_mod/pre_polymer.png){:.center-img style="width:100%;height:auto"}
 *The "original" YouTube layout, accessible after 2017 using the argument `disable_polymer=1`.*{:.caption}
 
 At some point in 2019, they disabled the `disable_polymer` parameter. Upset with the new YouTube.com layout I was now forced to use, I began developing an injection script which implemented many personal preference changes to make the Polymer layout more palatable.
 
-![Polymer YouTube Interface](/assets/images/youtube_mod/polymer.png){:.center-img style="width:65%;height:auto"}
+![Polymer YouTube Interface](/assets/images/youtube_mod/polymer.png){:.center-img style="width:100%;height:auto"}
 *New YouTube Polymer layout (2023), featuring YouTube Shorts.*{:.caption}
 
 Most of my changes involved increasing the number of videos displayed at a time on the YouTube home page, re-implementing collapsible descriptions underneath videos, and entirely getting rid of YouTube Shorts.
