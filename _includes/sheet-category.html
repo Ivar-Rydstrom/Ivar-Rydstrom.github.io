@@ -1,0 +1,36 @@
+{% if eq_index == false %}
+    {% assign eq_index = 1 %}
+{% endif %}
+<!-- {{ include.name }} -->
+<div class="wrap-collapsible">
+    <input id="{{ include.id }}" class="toggle" type="checkbox">
+    <label for="{{ include.id }}" class="lbl-toggle">{{ include.name }}</label>
+    <div class="collapsible-content">
+        <div class="content-inner">
+            <p>
+                {% assign titles = include.titles | split: ", " %}
+                {% assign slugs = include.slugs | split: ", " %}
+                {% assign previews = include.previews | split: ", " %}
+                {% for title in titles %}
+                    {% assign i = forloop.index0 %}
+                    {% for slug in slugs %}
+                        {% assign j = forloop.index0 %}
+                            {% for preview in previews %}
+                                {% assign k = forloop.index0 %}
+                                {% if i == j and j == k %}
+                                    {% assign title_ = titles[i] %}
+                                    {% assign slug_ = slugs[i] %}
+                                    {% assign preview_ = previews[i] %}
+                                    {% if preview == "one" or preview == "1" %}
+                                        {% include collapse-eqsheet-one.html title=title_ slug=slug_ %}
+                                    {% elsif preview == "two" or preview == "2" %}
+                                        {% include collapse-eqsheet-two.html title=title_ slug=slug_ %}
+                                    {% endif %}
+                                {% endif %}
+                            {% endfor %}
+                    {% endfor %}
+                {% endfor %}
+            </p>
+        </div>
+    </div>
+</div>

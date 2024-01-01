@@ -1,12 +1,12 @@
-<div class="sheet-container" id="eq-sheet-{{ eq-index }}" >
+<div class="sheet-container" id="eq-sheet-{{ eq_index }}" >
     <img class="preview-sheet" src="/assets/content/equation-sheets/JPG/{{ include.slug }}/{{ include.slug }}.jpg" alt="Loading page..."/>
     <p class="newline" >{{ include.title }}</p>
     <a href="/assets/content/equation-sheets/PDF/{{ include.slug }}.pdf" >Download PDF</a>
 </div>
 <script>
-    document.querySelector("#eq-sheet-{{ eq-index }}").addEventListener("click", function() {
+    document.querySelector("#eq-sheet-{{ eq_index }}").addEventListener("click", function() {
         window.location = "/assets/content/equation-sheets/PDF/{{ include.slug }}.pdf";
     })
 </script>
-{% assign eq-index = eq-index | plus: 1 %}
+{% assign eq_index = eq_index | plus: 1 %}
 

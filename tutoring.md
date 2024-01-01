@@ -12,91 +12,17 @@ If you are interested in tutoring services, please email me directly at: ***iryd
 
 *All equation sheets on this page are written by Ivar Rydstrom, unless otherwise stated.* *Digital transcription of hand-written equation sheets is currently underway.*{:style="color:red"}
 
-{% assign eq-index = 1 %}
+{% include sheet-category.html name="mechanics 🔨" id="collapsible-mech" titles="AP Physics C Equation Sheet (College Board), Advanced Analytical Mechanics" slugs="apC, PHYS104" previews="2, 2" %}
 
-<!-- Mechanics -->
-<div class="wrap-collapsible">
-    <input id="collapsible-mech" class="toggle" type="checkbox">
-    <label for="collapsible-mech" class="lbl-toggle">🔨 Mechanics 🔨</label>
-    <div class="collapsible-content">
-        <div class="content-inner">
-            <p>
-                {% include collapse-eqsheet-two.html title="Advanced Analytical Mechanics" slug="PHYS104" %}
-                {% include collapse-eqsheet-two.html title="AP Physics C Equation Sheet (College Board)" slug="apC" %}
-            </p>
-        </div>
-    </div>
-</div>
+{% include sheet-category.html name="electricity & magnetism 🔌" id="collapsible-EM" titles="Introductory E&M (Dr. Young), Electrodynamics" slugs="PHYS33-dryoung, PHYS112" previews="1, 2" %}
 
-<!-- Electricity and Magnetism -->
-<div class="wrap-collapsible">
-    <input id="collapsible-em" class="toggle" type="checkbox">
-    <label for="collapsible-em" class="lbl-toggle">⚡ Electricity & Magnetism ⚡</label>
-    <div class="collapsible-content">
-        <div class="content-inner">
-            <p>
-                {% include collapse-eqsheet-one.html title="Introductory E&M (Dr. Young)" slug="PHYS33-dryoung" %}
-                {% include collapse-eqsheet-two.html title="Electrodynamics" slug="PHYS112" %}
-               
-            </p>
-        </div>
-    </div>
-</div>
+{% include sheet-category.html name="thermodynamics ♨️" id="collapsible-thermo" titles="Thermodynamics, Statistical Mechanics" slugs="PHYS32, PHYS120" previews="2, 1" %}
 
-<!-- Thermodynamics -->
-<div class="wrap-collapsible">
-    <input id="collapsible-thermo" class="toggle" type="checkbox">
-    <label for="collapsible-thermo" class="lbl-toggle">♨️ Thermodynamics ♨️</label>
-    <div class="collapsible-content">
-        <div class="content-inner">
-            <p>
-                {% include collapse-eqsheet-two.html title="Thermodynamics" slug="PHYS32" %}
-                {% include collapse-eqsheet-one.html title="Statistical Mechanics" slug="PHYS120" %}
-            </p>
-        </div>
-    </div>
-</div>
+{% include sheet-category.html name="quantum mechanics 💎" id="collapsible-quantum" titles="Quantum Mechanics, Quantum Electrodynamics" slugs="PHYS121, PHYS123" previews="2, 1" %}
 
-<!-- Quantum Mechanics -->
-<div class="wrap-collapsible">
-    <input id="collapsible-quantum" class="toggle" type="checkbox">
-    <label for="collapsible-quantum" class="lbl-toggle">🔬 quantum mechanics 🔬</label>
-    <div class="collapsible-content">
-        <div class="content-inner">
-            <p>
-                {% include collapse-eqsheet-two.html title="Quantum Mechanics" slug="PHYS121" %}
-                {% include collapse-eqsheet-one.html title="Quantum Electrodynamics" slug="PHYS123" %}
-            </p>
-        </div>
-    </div>
-</div>
+{% include sheet-category.html name="vector calculus ➡️" id="collapsible-vector" titles="Vector Calculus, Vector Calculus Reference (Griffiths E&M)" slugs="MATH14, Griffiths-Vector-Calc" previews="2, 1" %}
 
-<!-- Vector Calculus -->
-<div class="wrap-collapsible">
-    <input id="collapsible-vector" class="toggle" type="checkbox">
-    <label for="collapsible-vector" class="lbl-toggle">➡️ vector Calculus ➡️</label>
-    <div class="collapsible-content">
-        <div class="content-inner">
-            <p>
-                {% include collapse-eqsheet-two.html title="Vector Calculus" slug="MATH14" %}
-                {% include collapse-eqsheet-one.html title="Vector Calculus Reference (Griffiths E&M)" slug="Griffiths-Vector-Calc" %}
-            </p>
-        </div>
-    </div>
-</div>
-
-<!-- Linear Algebra -->
-<div class="wrap-collapsible">
-    <input id="collapsible-linear" class="toggle" type="checkbox">
-    <label for="collapsible-linear" class="lbl-toggle">🔢 Linear Algebra 🔢</label>
-    <div class="collapsible-content">
-        <div class="content-inner">
-            <p>
-                {% include collapse-eqsheet-two.html title="Advanced Linear Algebra" slug="MATH103" %}
-            </p>
-        </div>
-    </div>
-</div>
+{% include sheet-category.html name="linear algebra 🔢" id="collapsible-linear" titles="MATH103" slugs="MATH103" previews="2" %}
 
 ---
 
