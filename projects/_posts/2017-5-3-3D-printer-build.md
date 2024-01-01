@@ -10,7 +10,7 @@ tags: [engineering]
 ---
 ## Fused Deposition Modeling
 
-[Fused Deposition Modeling (*FDM*)](https://en.wikipedia.org/wiki/Fused_filament_fabrication), commonly referred to just as ***"3D printing"***, is a manufacturing method that uses a continuous controlled stream of molten plastic to form solid structures modeled in [CAD](https://en.wikipedia.org/wiki/Computer-aided_design). It is not the only method of 3D printing, but it is the most common, readily available, and affordable technology. Also see [SLA/*"optical resin printing"*](https://en.wikipedia.org/wiki/Stereolithography) and [SLS/*"powder bed fusion printing"*](https://en.wikipedia.org/wiki/Selective_laser_sintering).
+[Fused Deposition Modeling (*FDM*)](https://en.wikipedia.org/wiki/Fused_filament_fabrication), commonly referred to just as ***"3D printing"***, is a manufacturing method that uses a continuous, controlled stream of molten plastic to form solid structures modeled in [CAD](https://en.wikipedia.org/wiki/Computer-aided_design). It is not the only method of 3D printing, but it is the most common, readily available, and affordable technology. Also see [SLA/*"optical resin printing"*](https://en.wikipedia.org/wiki/Stereolithography) and [SLS/*"powder bed fusion printing"*](https://en.wikipedia.org/wiki/Selective_laser_sintering).
 
 ## Building a 3D Printer
 
@@ -19,12 +19,12 @@ tags: [engineering]
 ![Anet A8 Marketing Image](/assets/images/3D_Printer/anet-a8.jpg){:.center-img style="width:65%;height:auto"}
 *Anet A8 marketing image.*{:.caption}
 
-In 2017, I purchased an Anet A8 since I was somewhat interested in 3D printing technology and it was the cheapest option available on the market. At the time, 3D printing technology was just still budding and most 3D printers costed $500-$1,500 on the low end. The Anet A8 was intriguing since it only costed $170.
+In 2017, I purchased an Anet A8 since I was somewhat interested in 3D printing technology, and it was the cheapest option available on the market. At the time, 3D printing was just still budding and most 3D printers costed $500-$1,500 on the low end. The Anet A8 was intriguing since it only costed $170.
 
 ![Anet A8 Kit](/assets/images/3D_Printer/kit.jpg){:.center-img style="width:65%;height:auto"}
 *Anet A8 3D printer kit, as shipped.*{:.caption}
 
-Unfortunately, since the quality of the components were quite low and the design was extremely barebones, the printer featured numerous design flaws that prevented it from being a useful manufacturing tool without heavy modification. This sparked me to join a community of makers who designed modified components specifically for the Anet A8 with the goal of making it a good 3D printer.
+Unfortunately, since the quality of the components was quite low and the design was extremely barebones, the printer featured numerous design flaws that prevented it from being a useful manufacturing tool without heavy modification. This sparked me to join a community of makers who designed modified components specifically for the Anet A8 with the goal of making it a good 3D printer.
 
 ![Assembled Anet A8 3D Printer](/assets/images/3D_Printer/vase.jpg){:.center-img style="width:65%;height:auto"}
 *My fully assembled and heavily modified Anet A8 3D printer, featuring chain-linked X and Y axis cable guides, external MOSFET upgrade for hotbed power, improved fan guide for print cooling, modified belt tensioners and endstop sensor hardware, and custom frame-mounted spool holder (not all pictured).*{:.caption}

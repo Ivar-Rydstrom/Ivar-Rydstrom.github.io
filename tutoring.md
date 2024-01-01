@@ -10,7 +10,7 @@ If you are interested in tutoring services, please email me directly at: ***iryd
 
 ## Equation Sheets
 
-All equation sheets are compiled by Ivar Rydstrom, unless otherwise stated. *Digital transcription of hand-written equation sheets is currently underway.*{:style="color:red"}
+*All equation sheets on this page are written by Ivar Rydstrom, unless otherwise stated.* *Digital transcription of hand-written equation sheets is currently underway.*{:style="color:red"}
 
 {% assign eq-index = 1 %}
 

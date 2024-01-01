@@ -12,9 +12,9 @@ tags: [engineering, computer science]
 
 ## Pick-n-place
 
-A pick and place (or pick-n-place) machine is a hardware machine typically used for automating the installation of surface mount components on PCBs. They are often also used in the field of experimental physics when precision is required to mount fragile detectors into housings. However, these machines are often prohibitively expensive.
+A [pick and place](https://en.wikipedia.org/wiki/Pick-and-place_machine) (or pick-n-place) machine is a hardware device typically used for automating the installation of surface mount components on PCBs. They are often also used in the field of experimental physics when precision is required to mount fragile detectors into housings. The downside is that these machines are often prohibitively expensive.
 
-At SLAC, I was tasked with finding a cheaper alternative to buying a full pick-n-place machine. In response, I designed my own using a 3D printer. My design borrows the frame and motor infrastructure from a [Prusa i3 MK3S+](https://www.prusa3d.com/product/original-prusa-i3-mk3s-3d-printer-3/) 3D printer, and replaces the extruder assembly with a custom suction-head to carefully handle the detector samples. It also features a USB microscope camera which allows the user to accurately position the detectors in the housings. The result is a fully-functional pick-n-place capable of mounting detectors with micron-level precision.
+I offered a cheaper alternative to buying a full pick-n-place machine for my research group at SLAC. I designed my own pick-n-place using a 3D printer by borrowing the frame and motor infrastructure from a [Prusa i3 MK3S+](https://www.prusa3d.com/product/original-prusa-i3-mk3s-3d-printer-3/) 3D printer. I replaced the extruder assembly with a custom suction-head to carefully handle the detector samples, and added a USB microscope camera which allows users to accurately position detectors into their copper housings. The result was a fully-functional pick-n-place capable of mounting devices with micron-level precision.
 
 ![camera](/assets/images/picknplace/camera.jpg){:.center-img style="width:65%;height:auto"}
 *Microscope camera used for high-magnification observation mounted to suction head assembly.*{:.caption}

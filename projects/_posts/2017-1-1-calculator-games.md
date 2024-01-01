@@ -8,20 +8,20 @@ permalink: /projects/calculator-games
 related_posts: ""
 tags: [computer science]
 ---
-The Texas Instruments graphing calculator family offers the amazing ability for users create custom programs that can be executed in the global context of the calculator. Scripts can be written in [TI-BASIC](https://en.wikipedia.org/wiki/TI-BASIC), a dialect of the [BASIC](https://en.wikipedia.org/wiki/BASIC) language family designed specifically for Texas Instruments calculator products. These scripts have full global control of the calculator, allowing for automated execution of any task that a normal user could do manually. 
+The Texas Instruments graphing calculator family offers the amazing ability to create custom programs that can be executed in the global context of the calculator. Scripts can be written in [TI-BASIC](https://en.wikipedia.org/wiki/TI-BASIC), a dialect of the [BASIC](https://en.wikipedia.org/wiki/BASIC) language family designed specifically for Texas Instruments calculator products. These scripts have full global control of the calculator, allowing for automated execution of any task that a normal user could do manually. 
 
-Of course, the intended use case of equation scripting and quality-of-life shortcuts can be extended, enabling creative applications such as graphics engines and games.
+Of course, the intended use case of equation scripting and quality-of-life shortcuts was not fully respected, enabling creative applications such as graphics engines and games.
 
 ![TI-84 Plus CE Calculator](/assets/images/calc/ti84.jpg){:.center-img style="width:25%;height:auto"}
 *The TI-84 PLUS CE Graphing Calculator.*{:.caption}
 
-The biggest limiting factor is the extremely underwhelming hardware resources available on graphing calculators. The processor in a TI-84 Plus CE features a single core with a measly clock speed of just 48 MHz (compare with modern computer processors with clock speeds of over 4 GHz multiplexed over perhaps dozens of virtual cores). Additionally, the documentation and language support for TI-BASIC is very poor. I found the [TI-Basic Developer](http://tibasicdev.wikidot.com/) site to be an invaluable resource for exploring features of the language.
+The biggest limiting factor is the extremely underwhelming hardware resources available on graphing calculators. The processor in a TI-84 Plus CE features a single core with a measly clock speed of just 48 MHz (compare with modern computer processors with clock speeds of over 4 GHz, multiplexed over perhaps dozens of virtual cores). Additionally, the documentation and language support for TI-BASIC is very poor. I found the [TI-Basic Developer](http://tibasicdev.wikidot.com/) site to be an invaluable resource for exploring features of the language.
 
 These limitations force programmers to be extremely crafty and constantly conscious of hardware resources, which has motivated the implementation of highly creative resource-conscious algorithms to replace those used in everyday programming.
 
 ## Snake
 
-Although the game [***Snake***](https://en.wikipedia.org/wiki/Snake_(video_game_genre)) is generally considered a classic programming problem solved easily with the use of [object orientation](https://en.wikipedia.org/wiki/Object-oriented_programming), Snake is extremely difficult to implement on a graphing calculator. TI-BASIC does not support object orientation, and otherwise has extremely limited data storage recourses. There are only 27 numeric variables available for storing numbers, and lists can only store up to 999 elements (only 99 on TI-83 series calculators). Generally speaking, the calculator will likely run out of physical RAM far before filling up even a single list.
+Although the game [***Snake***](https://en.wikipedia.org/wiki/Snake_(video_game_genre)) is generally considered a classic programming problem solved easily with the use of [object orientation](https://en.wikipedia.org/wiki/Object-oriented_programming), Snake is extremely difficult to implement on a graphing calculator. TI-BASIC does not support object orientation, and otherwise has extremely limited data storage recourses. There are only 27 numeric variables available for storing numbers, and lists can only store up to 999 elements (only 99 on TI-83 series calculators). Generally speaking, the calculator will likely run out of physical RAM far before filling up even a single list. Compared to modern programming languages, this is extremely limiting.
 
 A game like Snake calls for appending a new element to the end of a list every time a new "snake segment" is acquired. My early attempts to implement this game involved appending the `X` and `Y` position values of each segment to two individual lists, and keeping track of each segment based on their shared index in these lists. In practice, this implementation was simply too resource-taxing for the calculator. It was unable to iterate through even a single list each frame, as acquiring only a few segments would slow the framerate nearly to a halt.
 
@@ -41,7 +41,7 @@ In this way, my implementation of snake only stores the location of two segments
 ![Flappy Bird Game](/assets/images/calc/flap1.png){:.center-img style="width:65%;height:auto"}
 *Flappy Bird clone game played on a TI-84 Plus CE.*{:.caption}
 
-The wildly popular 2013 game [***Flappy Bird***](https://flappybird.io/) is one of the most re-created games of all time, especially after its removal from the App Store and Google Play Store in 2014. I had my hand at re-creating this popular game, myself, in TI-BASIC.
+The wildly popular 2013 game [***Flappy Bird***](https://flappybird.io/) is one of the most re-created games of all time, especially after its removal from the App Store and Google Play Store in 2014. I tried my hand at re-creating this popular game in TI-BASIC.
 
 My clone utilizes the convenient `Menu` framework built into the calculator language which enabled me to offer different difficulty levels and game modes for players to experiment with. 
 
@@ -53,9 +53,9 @@ My clone utilizes the convenient `Menu` framework built into the calculator lang
 
 ## Pong
 
-[Pong](https://en.wikipedia.org/wiki/Pong) competes for the title of earliest ever invented video game, with a year of inception of 1972. The two-player game pits opponents against each other as they compete to ricochet a ball into the opponent's score zone using a moving platform.
+[***Pong***](https://en.wikipedia.org/wiki/Pong) competes for the title of earliest ever invented video game, with a year of inception of 1972. The two-player game pits opponents against each other as they compete to ricochet a ball into the opponent's score zone using a moving platform.
 
-To implement this multiplayer game, I utilized the calculator as two connected controllers with a mirrored control scheme that accommodates for two simultaneous players. Unfortunately, Texas Instruments calculators feature only [one-key-rollover](https://en.wikipedia.org/wiki/Key_rollover), so both players must share the same priority queue for button inputs.
+To implement this multiplayer game, I utilized the calculator buttons as two connected controllers that accommodates for two simultaneous players. Unfortunately, Texas Instruments calculators feature only [one-key-rollover](https://en.wikipedia.org/wiki/Key_rollover), so both players must share the same priority queue for button inputs.
 
 ![Pong](/assets/images/calc/pong3.png){:.center-img style="width:65%;height:auto"}
 *"Pong" played on a TI-84 Plus CE.*{:.caption}
