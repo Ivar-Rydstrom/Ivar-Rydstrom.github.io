@@ -64,7 +64,7 @@ If you are interested in tutoring services, please email me directly at: ***iryd
     <div class="collapsible-content">
         <div class="content-inner">
             <p>
-                {% include collapse-eqsheet-two.html title="Quantum I and II" slug="PHYS121" %}
+                {% include collapse-eqsheet-two.html title="Quantum Mechanics" slug="PHYS121" %}
                 {% include collapse-eqsheet-one.html title="Quantum Electrodynamics" slug="PHYS123" %}
             </p>
         </div>
