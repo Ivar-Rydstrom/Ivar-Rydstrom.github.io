@@ -2,7 +2,7 @@
 layout: post
 title: Personal YouTube Modifications
 image: /assets/images/youtube_mod/code.png
-description: Tampermonkey injection script for visual front-end modification and quality of life changes to YouTube.com.
+description: Tampermonkey injection script for visual front-end modification and quality of life changes to YouTube.com
 category: projects
 permalink: /projects/youtube-modifications
 related_posts: ""

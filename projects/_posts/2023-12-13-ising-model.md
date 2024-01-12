@@ -15,6 +15,9 @@ The Ising Model is a nearest-neighbor numerical model for ferromagnetic behavior
 
 Every turn, the algorithm iterates through every dipole and considers the projected change in total energy if each individual dipole were to be flipped. If flipping a dipole would result in a lower total energy, then it is always flipped. Otherwise, it is flipped randomly according to temperature and current-energy-state dependent Boltzmann statistics. The total energy is modeled using only the interactions of nearest cardinal neighbors. [Learn more about the Ising Model here](https://en.wikipedia.org/wiki/Ising_model).
 
+![Ising Model GIF](/assets/images/ising/sim.gif){:.center-img style="width:65%;height:auto"}
+*Ising Model Simulation with lattice size of 100x100. Simulation converges quickly due to small temperature value of 0.2.*{:.caption}
+
 ## Implementation
 My implementation of this model uses the [p5.js](https://p5js.org/) JavaScript framework and native HTML elements to provide an interactive web interface which allows the user to manipulate parameters in real time.
 

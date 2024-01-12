@@ -2,7 +2,7 @@
 layout: post
 title: Nitro Type Bot Client
 image: /assets/images/nitrotype_bot/nitro.png
-description: A bot client that (poorly) plays Nitro Type using optical character recognition.
+description: A bot client that (poorly) plays Nitro Type using optical character recognition
 category: projects
 permalink: /projects/nitrotype-bot
 related_posts: ""

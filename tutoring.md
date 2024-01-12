@@ -22,7 +22,7 @@ If you are interested in tutoring services, please email me directly at: ***iryd
 
 {% include sheet-category.html name="vector calculus ➡️" id="collapsible-vector" titles="Vector Calculus, Vector Calculus Reference (Griffiths E&M)" slugs="MATH14, Griffiths-Vector-Calc" previews="2, 1" %}
 
-{% include sheet-category.html name="linear algebra 🔢" id="collapsible-linear" titles="MATH103" slugs="MATH103" previews="2" %}
+{% include sheet-category.html name="linear algebra 🔢" id="collapsible-linear" titles="Advanced Linear Algebra" slugs="MATH103" previews="2" %}
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Warm Filtering Electronics for SPLENDOR
-description: A room-temperature transistor bias line filtering solution for a modern prototype dark matter experiment.
+description: A room-temperature transistor bias line filtering solution for a modern prototype dark matter experiment
 image: /assets/images/filterbox/filterbox1.jpg
 category: projects
 permalink: /projects/filter-box

@@ -2,7 +2,7 @@
 layout: post
 title: Ascii Roguelike
 image: /assets/images/ascii_roguelike/gameover.png
-description: A turn-based procedurally-generated roguelike game played in a terminal for Irvine Hacks 2020.
+description: A turn-based procedurally-generated roguelike game played in a terminal for Irvine Hacks 2020
 category: projects
 permalink: /projects/ascii-roguelike
 related_posts: ""

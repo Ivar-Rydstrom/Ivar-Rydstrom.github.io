@@ -2,7 +2,7 @@
 layout: post
 title: Pick-and-Place Device from a 3D-Printer
 image: /assets/images/picknplace/picknplace.jpg
-description: A precision Raspberry Pi controlled detector mounting solution reverse-engineered from a 3D printer.
+description: A precision Raspberry Pi controlled detector mounting solution reverse-engineered from a 3D printer
 category: projects
 permalink: /projects/pick-n-place
 related_posts: ""
