@@ -4,9 +4,9 @@ title: Tutoring
 description: Ivar Rydstrom's Private Tutoring Services
 breadcrumbs: true
 ---
-I offer private one-on-one tutoring services for college lower-division physics and high school AP physics courses. I have nearly 500 sessions of experience, and have developed extensive problem solving methods students can use to solve nearly any basic physics problem they may encounter.
+For tutoring inquiries, please email me directly at ***irydstrom@berkeley.edu***
 
-If you are interested in tutoring services, please email me directly at: ***irydstrom (at) scu (dot) edu***.
+I offer private one-on-one tutoring services tailored for college and high school physics courses. I have nearly 500 sessions of experience, and have developed extensive problem solving methods students can use to solve nearly any basic physics problem they may encounter.
 
 ## Equation Sheets
 
