@@ -8,7 +8,7 @@ breadcrumbs: true
     function copy_to_clipboard() {
         navigator.clipboard.writeText('irydstrom@berkeley.edu');
         var tooltip = document.querySelector(".copy_tooltip");
-        tooltip.innerHTML = "Copied";
+        tooltip.innerHTML = "Copied ✓";
     }
 </script>
 For tutoring inquiries, please email me directly at ***irydstrom@berkeley.edu***{:.copy_clip onclick="copy_to_clipboard()"}
