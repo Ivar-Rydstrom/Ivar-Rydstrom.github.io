@@ -4,7 +4,25 @@ title: Tutoring
 description: Ivar Rydstrom's Private Tutoring Services
 breadcrumbs: true
 ---
-For tutoring inquiries, please email me directly at ***irydstrom@berkeley.edu***
+<script>
+    function copy_to_clipboard() {
+        navigator.clipboard.writeText('irydstrom@berkeley.edu');
+        var tooltip = document.querySelector(".copy_tooltip");
+        tooltip.innerHTML = "Copied";
+    }
+</script>
+For tutoring inquiries, please email me directly at ***irydstrom@berkeley.edu***{:.copy_clip onclick="copy_to_clipboard()"}
+
+<script>
+    var copy_clip = document.querySelector(".copy_clip");
+    var tooltip = document.createElement("span");
+    tooltip.innerHTML = "Copy Text";
+    tooltip.setAttribute("class","copy_tooltip");
+    copy_clip.appendChild(tooltip);
+    copy_clip.addEventListener("mouseout",function() {
+        document.querySelector(".copy_tooltip").innerHTML = "Copy Text";        
+    })
+</script>
 
 I offer private one-on-one tutoring services tailored for college and high school physics courses. I have nearly 500 sessions of experience, and have developed extensive problem solving methods students can use to solve nearly any basic physics problem they may encounter.
 

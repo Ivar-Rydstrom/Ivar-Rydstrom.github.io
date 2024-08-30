@@ -405,3 +405,45 @@ p.newline {
     text-align: center;
     margin: auto;
 }
+
+// COPY TO CLIPBOARD
+.copy_clip {
+    position: relative;
+    display: inline-block;
+}
+.copy_clip:hover {
+    cursor: pointer;
+    background-color: rgba(145, 145, 145, 0.534);
+    border-radius: 5px;
+}
+.copy_tooltip {
+    visibility: hidden;
+    width: 100px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    transform: translate(-50%,0);
+    left: 50%;
+    // margin: auto;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.copy_tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+.copy_clip:hover .copy_tooltip {
+    visibility: visible;
+    opacity: 1;
+}

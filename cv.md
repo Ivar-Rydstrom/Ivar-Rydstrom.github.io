@@ -10,7 +10,7 @@ breadcrumbs: true
 # Curriculum Vitae
 
 </div>
-<h3 class="subtitle">Updated December 2023</h3>
+<h3 class="subtitle">Updated August 2024</h3>
 
 ---
 
