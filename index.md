@@ -17,7 +17,7 @@ cover: true
 
 <hr>
 
-Hi, I'm Ivar. I'm a physics PhD student at [UC Berkeley](https://physics.berkeley.edu/). I also do private physics tutoring, both freelance and with [Cambridge Coaching](https://cambridgecoaching.com/tutors/ivar). Find more information about my tutoring services [here](/tutoring).
+Hi, I'm Ivar. I'm a physics PhD student at [UC Berkeley](https://physics.berkeley.edu/) who works in the [Pyle Group](https://sites.google.com/berkeley.edu/pylegroup). I also do private physics tutoring, both freelance and with [Cambridge Coaching](https://cambridgecoaching.com/tutors/ivar). Find more information about my tutoring services [here](/tutoring).
 
 Previously, I studied engineering physics, math, and computer science at [Santa Clara University](https://www.scu.edu/cas/physics/).
 
