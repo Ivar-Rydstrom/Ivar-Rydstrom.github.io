@@ -15,7 +15,7 @@ In order to cool samples in the lab down to millikelvin temperatures it requires
 The kind of cryostats I have the most familiarity with are dry "3He cryostats". These fridges use a sorption pump to control the deployment of expensive 3He, eliminating the need to externally feed fresh Helium in the process of a cycle. That being said, they require complex thermodynamic cycling procedures in order to cool down, and can only achieve temperatures of about ~300mK (compared to the ~10mK base temperatures of [modern dilution refrigerators](https://nanoscience.oxinst.com/assets/uploads/NanoScience/Brochures/Principles%20of%20dilution%20refrigeration_Sept15.pdf)). [Learn more about 3He refrigerators here](https://liquids.seas.harvard.edu/penanen/workings.html).
 
 ![3He Canister](/assets/images/fridge_gui/3he_square.jpg){:.center-img style="width:65%;height:auto"}
-*Regulation canister containing $70,000 of Helium-3.*{:.caption}
+*Regulation canister containing $20,000 of Helium-3.*{:.caption}
 
 ## Graphical User Interface for Cryostat Control
 

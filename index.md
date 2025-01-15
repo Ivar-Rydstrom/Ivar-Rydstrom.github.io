@@ -28,7 +28,7 @@ I'm currently based in Northern California (East Bay), but I'm originally from O
 My research in physics falls in the realm of experimental particle astrophysics. In particular, I help to develop powerful low temperature detectors to search for dark matter. I currently work with [Dr. Matt Pyle](https://vcresearch.berkeley.edu/faculty/matt-pyle) at UCB, and I am also a member of the growing [TESSERACT collaboration](https://tesseract.lbl.gov/). We solve fundamental problems pertinent to superconducting Transition Edge Sensors, particularly for the application of dark matter detection. Our work benefits the development of various kinds of superconducting devices, from quantum sensors to superconducting qubits for quantum computing.
 
 ![DMQIS Group Photo](/assets/images/group_photo.jpg){:.center-img style="width:65%"}
-*DMQIS group underneath dilution refrigerator "OLAF" at SLAC SMF, September 2023.*{:.caption}
+*DMQIS group under DR "OLAF" at SLAC Millikelvin Facility, September 2023.*{:.caption}
 
 <br>
 
